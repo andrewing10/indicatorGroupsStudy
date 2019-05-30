@@ -1,0 +1,79 @@
+BBANDS 
+
+name: 
+Bollinger Bands
+
+description: 
+The Bollinger Band (BBANDS) study created
+by John Bollinger plots upper and lower envelope bands around the
+price of the instrument. The width of the bands is based on the
+standard deviation of the closing prices from a moving average of
+price.
+
+formula:
+Middle Band = n-period moving average
+Upper Band = Middle Band + ( y * n-period standard deviation)
+Lower Band = Middle Band - ( y * n-period standard deviation)
+
+url: 
+https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/bollinger-band-bbands/
+
+DEMA                 
+
+name:
+Double Exponential Moving Average
+
+description: 
+The Double Exponential Moving Average (DEMA)
+by Patrick Mulloy attempts to offer a smoothed average with less
+lag than a straight exponential moving average. The calculation
+is more complex than just a moving average of a moving average as
+shown in the formula below.
+
+formula:
+DEMA = ( 2 * EMA(n)) - (EMA(n) of EMA(n))
+
+url: 
+https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/double-exponential-moving-average-dema/
+
+EMA                  
+
+name:
+Exponential Moving Average
+
+description:
+The Exponential Moving Average (EMA) represents
+an average of prices, but places more weight on recent prices. The
+weighting applied to the most recent price depends on the selected
+period of the moving average. The shorter the period for the EMA,
+the more weight that will be applied to the most recent price.
+
+formula:
+EMA = ( P - EMAp ) * K + EMAp
+Where:
+    P = Price for the current
+    period
+    EMAp = the Exponential
+    moving Average for the previous period
+    K = the smoothing constant,
+    equal to 2 / (n + 1)
+    n = the number of periods
+    in a simple moving average roughly approximated by the EMA
+
+url: 
+https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/exponential-ema/
+
+HT_TRENDLINE         Hilbert Transform - Instantaneous Trendline
+KAMA                 Kaufman Adaptive Moving Average
+MA                   Moving average
+MAMA                 MESA Adaptive Moving Average
+MAVP                 Moving average with variable period
+MIDPOINT             MidPoint over period
+MIDPRICE             Midpoint Price over period
+SAR                  Parabolic SAR
+SAREXT               Parabolic SAR - Extended
+SMA                  Simple Moving Average
+T3                   Triple Exponential Moving Average (T3)
+TEMA                 Triple Exponential Moving Average
+TRIMA                Triangular Moving Average
+WMA                  Weighted Moving Average
