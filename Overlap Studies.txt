@@ -63,9 +63,36 @@ Where:
 url: 
 https://www.tradingtechnologies.com/xtrader-help/x-study/technical-indicator-definitions/exponential-ema/
 
-HT_TRENDLINE         Hilbert Transform - Instantaneous Trendline
-KAMA                 Kaufman Adaptive Moving Average
-MA                   Moving average
+HT_TRENDLINE         
+
+name: 
+Hilbert Transform - Instantaneous Trendline
+
+url:
+https://en.wikipedia.org/wiki/Hilbert_transform
+
+
+
+
+KAMA                 
+name:
+Kaufman Adaptive Moving Average
+
+description:
+Developed by Perry Kaufman, Kaufman's Adaptive Moving Average (KAMA) is a moving average designed to account for market noise or volatility. KAMA will closely follow prices when the price swings are relatively small and the noise is low. KAMA will adjust when the price swings widen and follow prices from a greater distance. This trend-following indicator can be used to identify the overall trend, time turning points and filter price movem
+
+url: 
+https://stockcharts.com/school/doku.php?id=chart_school:technical_indicators:kaufman_s_adaptive_moving_average
+
+MA                   
+
+name:
+Moving average
+
+url:
+https://en.wikipedia.org/wiki/Moving_average
+
+
 MAMA                 MESA Adaptive Moving Average
 MAVP                 Moving average with variable period
 MIDPOINT             MidPoint over period
